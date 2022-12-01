@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+    <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <title>IDEaS Company</title>
+
+</head>
+    <div class="navbar-fixed">
+        <nav class="transparent">
+            <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a class="brand-logo">IDEaS Company</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" a class="waves-effect waves-light btn amber">HOME</a></li>
+                <li><a href="product.html" a class="waves-effect waves-light btn amber">PRODUCTS</a></li>
+                <li><a href="services.html" a class="waves-effect waves-light btn amber">SERVICES</a></li>
+                <li><a href="offices.html" a class="waves-effect waves-light btn amber">OFFICES</a></li>
+            </ul>
+    </div>
+</div>
+<!-- SideNav Structure -->
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="Images/sidenav pic.jpg"></div>
+        <a href="#user"><img class="circle" src="Images/namo sidenav.jpg"></a>
+        <a href="#name"><span class="amber-text name">IDEaS Company</span></a>
+        <a href="#email"><span class="amber-text email">ideascompany@gmail.com</span></a>
+        </div>
+    </li>
+        <li><a class="amber-text">About Us</a></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="product.html"><i class="material-icons">add_shopping_cart</i>Products</a></li>
+        <li><a href="services.html"><i class="material-icons">business_center</i>Services</a></li>
+        <li><a href="offices.html"><i class="material-icons">local_post_office</i>Offices</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="amber-text">Follow Us On</a></li>
+        <li><a class="waves-effect" href="">Facebook</a></li>
+        <li><a class="waves-effect" href="">Twitter</a></li>
+        <li><a class="waves-effect" href="">Instagram</a></li>
+    <li><a class="waves-effect" href="">Youtube</a></li>
+</ul>
+<!-- SideNav Init -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, screenLeft);
+        });
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+        ('.dropdown-trigger').dropdown();
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Slider -->
+<body>
+    <body style="background-image:url(Images/castle.jpg); background-attachment: fixed; background-size: cover;"></body>
+        <div class="container">
+<!-- header -->
+<h1 class="amber-text" style="text-align: center">Welcome to our Companys' Website</h1>
+<!-- blockquote -->
+<div class="container"></div>
+<blockquote class="white-text">IDEaS is a type of firm that offers a multi-functional Identification Card in different Company local and international. The firm located at Brgy. Tagapo Sta Rosa, Laguna which was one of the riches City in Laguna that surrounded by different types of businesses. The location help the firm to grow more and gather more clients. ID Eas is committed to develop a product that provides an accurate and precise information with easy and accessible system that satisfy the needs of our clients. The firm ensures that the product we promote will help both the HR Department and Employees in monitoring the work performances of each employee.
+</blockquote>
+
+<h3 class="amber-text">Advertisement</h3>
+    <div class="col s12 m6 l12">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                <img src="Images/Slider 1.avif"> 
+                <div class="caption center-align">
+                    <h2 class="white-text text-lighten-3">Lets Motivate One Another!</h2>
+                    <h4 class="white-text text-lighten-3">To have better mindset.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/Slider 2.avif"> 
+                <div class="caption left-align">
+                    <h2 class="black-text text-lighten-3">Spread Positivity and Love!</h2>
+                    <h4 class="black-text text-lighten-3">It is our work environment.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/Slider 3.avif"> 
+                <div class="caption right-align">
+                    <h2 class="white-text text-lighten-3">Be Productive and Efficient</h2>
+                    <h4 class="white-text text-lighten-3">It takes a lot of efforts and experience.</h4>
+                </div>
+                </li>
+                <li>
+                <img src="Images/Slider 4.avif"> 
+                <div class="caption center-align">
+                    <h2 class="black-text text-lighten-3">Create Memories in Workspace</h2>
+                    <h4 class="black-text text-lighten-3">Part of being proffesional is to enjoy moments.</h4>
+                </div>
+                </li>
+            </ul>
+            </div>
+    </div>
+
+<!-- Slider Script -->
+<Script>
+document.addEventListener('DOMContentLoaded', function() {
+var elems = document.querySelectorAll('.slider');
+var instances = M.Slider.init(elems, 'right');
+});
+
+// Or with jQuery
+
+$(document).ready(function(){
+$('.slider').slider('');
+});
+</Script>
+<!-- Offset -->
+<section class="section black">
+    <div class="container">
+        <div class="row">
+            <div class="col hide-on-small-only m5 l7"><img class="responsive-img" src="Images/IDEAS.png" alt="" style="position: middle"></div>
+            <div class="col s12 m7 l5">
+                <h4 class="amber-text">Vision Statement</h4>
+                <blockquote class="white-text" style="position:screenLeft">To become the most customer-centric and reputational company in terms of providing a quality product and service to our clientele that enriches the lives of each businesses while meeting their goals and objectives.</blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section class="section black">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m7 l5">
+                <h4 class="amber-text">Mission Statement</h4>
+                <blockquote class="white-text" style="position:screenLeft">To establish a user-friendly, multi-functional identity card that serves the needs of the business while protecting their privacy. We also wanted to be a well known Company in the world with a good name and reputation.
+                </blockquote>
+            </div>
+            <div class="col hide-on-small-only m5 l7"><img class="responsive-img" src="Images/IDEAS.png" alt="" style="position: middle"></div>
+            
+        </div>
+    </div>
+</section>
+<!-- Responsive Videos -->
+<h3 class="amber-text">Starting a Business Guide</h3>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="video-container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/awnn-bqV_Tw" title="How to Start a Business from NOTHING" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="video-container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/cGx_K3cmIHg" title="HOW TO START A BUSINESS for Beginners | START A BUSINESS IN 2022 | Crash Course Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer black">
+    <div class="container">
+        <div class="row">
+            <div class="col m6 l6 s12">
+                <h5 class="amber-text">Interested? Contact Us!</h5>
+            <img src="Images/Apply Now.jpg" alt="" width="250px" height="200px">
+            </div>
+            <div class="col m6 l4 offset-l2 s12">
+                <h6 class="amber-text">Mailing Address</h6>
+            <p>#765 Brgy. Tagapo Santa Rosa Laguna</p>
+                <h6 class="amber-text">Phone Number</h5>
+                <p>+639993900849</p>
+            <h6 class="amber-text">Email Address</h6>
+            <p>ideascompany@gmail.com</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container amber-text" >
+        © Copyright 2022 All rights reserved.
+        <a class="amber-text right" href="#!">Additional Information ></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+    <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <title>IDEaS Company</title>
+
+</head>
+<!-- Navbar Structure -->
+    <div class="navbar-fixed">
+        <nav class="transparent">
+            <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a class="brand-logo">IDEaS Company</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" a class="waves-effect waves-light btn amber">HOME</a></li>
+                <li><a href="product.html" a class="waves-effect waves-light btn amber">PRODUCTS</a></li>
+                <li><a href="services.html" a class="waves-effect waves-light btn amber">SERVICES</a></li>
+                <li><a href="offices.html" a class="waves-effect waves-light btn amber">OFFICES</a></li>
+            </ul>
+    </div>
+</div>
+<!-- SideNav Structure -->
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="Images/sidenav pic.jpg"></div>
+        <a href="#user"><img class="circle" src="Images/namo sidenav.jpg"></a>
+        <a href="#name"><span class="amber-text name">IDEaS Company</span></a>
+        <a href="#email"><span class="amber-text email">ideascompany@gmail.com</span></a>
+        </div>
+    </li>
+        <li><a class="amber-text">About Us</a></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="product.html"><i class="material-icons">add_shopping_cart</i>Products</a></li>
+        <li><a href="services.html"><i class="material-icons">business_center</i>Services</a></li>
+        <li><a href="offices.html"><i class="material-icons">local_post_office</i>Offices</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="amber-text">Follow Us On</a></li>
+        <li><a class="waves-effect" href="">Facebook</a></li>
+        <li><a class="waves-effect" href="">Twitter</a></li>
+        <li><a class="waves-effect" href="">Instagram</a></li>
+    <li><a class="waves-effect" href="">Youtube</a></li>
+</ul>
+<!-- Sidenav Init -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, screenLeft);
+        });
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+        ('.dropdown-trigger').dropdown();
+</script>
+<!-- Materialbox Init -->
+<script> document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, top);})
+$(document).ready(function(){
+    $('.materialboxed').materialbox();});</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Body -->
+<body>
+    <body style="background-image:url(Images/castle.jpg); background-attachment: fixed; background-size: cover;"></body>
+        <div class="container">
+<!-- header -->
+<h1 class="amber-text" style="text-align: center">IDEaS Offered Services</h1>
+<!-- blockquote -->
+<div class="container"></div>
+<blockquote class="white-text">Aside from our products our company also offered quality services which is needed or demanded nowadays. IDEaS is being established to ensure a high-quality services that meets the needs of many companies. Our company believe that it could be used by businesses in the Philippines today and in the long run. It is also beneficial to businesses in the Philippines that are having difficulties finding quality service in some ways. We will reach out to our target customers by posting advertisements online, conducting surveys, and creating posters. They can also be aware of our product because of our reputation as a company that ensuring quality service</blockquote>
+</div>
+<!-- Card Reveal Services -->
+<div class="container">
+    <div class="row">
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/Software.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Software Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Software Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Software services enhance features and upgrade the security for a company or individual's technological devices, 
+                such as computers and phones. These services provide anti-virus protection and update applications to be more user-friendly and effective.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/event.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Event Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Event Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies can hire an event planning service for office parties, fundraising events and other corporate functions. 
+                The event management service is responsible for finding venues, supplies, staff and catering, if applicable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/training.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Training Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Training Services<i class="material-icons right">close</i></span>
+                <p class="white-text">A company may benefit from hiring a training company to teach employees specific computer skills or soft skills. 
+                In these cases, the company may hire an outside party to lead training sessions, workshops or presentations to help team members improve or learn a certain skill.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/consulting.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Consult Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Consulting Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Businesses can use consulting services for a variety of projects, including financial budgeting, landscaping, audits and more. 
+                Consulting services allow a company's management team to gain skills and perspectives on topics that they don't know much about.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/marketing.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Market Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Marketing Services<i class="material-icons right">close</i></span>
+                <p class="white-text">If a company wants to gain more business and public attention, it may consider outsourcing marketing services. 
+                Marketing services help companies advertise their products, services and brand by creating marketing campaigns. Though some companies have internal marketing departments, others outsource this labor in order to receive faster and higher-quality results.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/waste.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Waste Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Waste Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Waste management services help businesses and individuals keep a clean working environment. Companies generate a sizable amount of garbage each day. 
+                Waste management services gather this garbage and take it away to landfills and recycling facilities so that a company's workspace and the surrounding area stay clean.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/construct.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Construct Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Construction Services<i class="material-icons right">close</i></span>
+                <p class="white-text">If a company is interested in expanding or renovating its office space, it may need to hire a construction team to build the space. 
+                Hiring a team of experienced construction workers ensures that they complete any office renovations or expansions in a safe and efficient manner. Construction teams usually use their own tools as well, so the company does not have to rent or buy expensive equipment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/legal.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Legal Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Legal Services<i class="material-icons right">close</i></span>
+                <p class="white-text">A company may want to hire legal services if they need to draft business agreements, ask for advice or navigate a legal issue. 
+                Legal teams or individuals can offer guidance, advice and expertise to a company to ensure its legally binding documents uphold the organization's original intentions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/health.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Health Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Health Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Some companies hire health and wellness experts, such as nutritionists, therapists or other doctors, to promote good health for their employees. 
+                These health services are available to the company's employees if they are feeling unwell. Having these services can help encourage good health practices and ultimately improve workplace satisfaction.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/insurance.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Insurance Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Insurance Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies need insurance services not only to provide health and life insurance for employees but also for its property and practices. 
+                Insurance services help reduce a company's financial liabilities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/security.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Security Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Security Services<i class="material-icons right">close</i></span>
+                <p class="white-text">If a company is hosting a special event, works with a sensitive subject or is in a highly populated area, 
+                it may hire security services to ensure the safety of its employees and guests. Companies can hire security professionals for single events or for daily operations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/travel.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Travel Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Travel Services<i class="material-icons right">close</i></span>
+                <p class="white-text">When an employee is required to travel for work, it is customary for the company to provide travel arrangements. 
+                Travel services can make this process much simpler. These services can help ensure travel plans are accurate and cost-efficient.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/research.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Research Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Research Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies can outsource research services to save time and ensure accuracy. 
+                Research service businesses may conduct academic research, experiments and focus groups to help the company reach its goals. For example, a company may hire an agency to complete market research and gather information about competitors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/design.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Design Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Design Services<i class="material-icons right">close</i></span>
+                <p class="white-text">When a company wants to create a website or other media, it may need to hire a design service, 
+                such as a graphic or website designer. These professionals create websites, logos, advertisements and other promotional content for companies to increase public interest.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/finance.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Finance Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Finance Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies often hire financial professionals to help prepare tax documents, budgets and audits. 
+                These financial services allow companies to understand their financial position and ensure that their fiscal practices are beneficial.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/deliver.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Delivery Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Delivery Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Delivery services allow companies to receive essential supplies without having to physically shop for the items, 
+                saving time and offering convenience for employees. These business services also can help companies transport their products to customers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/printing.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Printing Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Printing Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies use printing services to mass-produce promotional and specialty items. 
+                Print shops often have their own special equipment, such as laminators or photo printers, that many companies do not own themselves.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/personal.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Personal Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Personal Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Personal business services include anything that can improve an employee's work life.
+                Some companies hire companies to provide exercise centers, transportation assistance and relaxation areas. These personal services improve employee satisfaction, allowing them to reach their full working potential.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/maintenance.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Maintenance Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Maintenance Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies need maintenance service professionals to fix appliances and other malfunctioning equipment. 
+                Maintenance professionals help ensure that a company's property functions properly, and they're available to address service requests as needed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/bookkeping.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Bookkeeping Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Bookkeeping Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Companies can hire bookkeeping services to maintain accurate records of employee information and fiscal activities. 
+                Bookkeeping professionals lend their expertise to offer convenience for companies. These services focus on record-keeping and data entry and allow employees to focus on other work instead of filing documents.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Services/parking.jpg">
+                </div>
+                <div class="card-content">
+                <span class="card-title activator black-text" style="font-weight:bold">Parking and Car Services<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                <span class="card-title white-text">Parking Services<i class="material-icons right">close</i></span>
+                <p class="white-text">Parking service professionals, also known as valets, wait by building entrances to park a guest's car for them. 
+                This is a convenient service that saves time and helps to use parking lot space efficiently. In heavily populated or high-traffic areas, a company may hire valet services to accommodate guests, customers and employees.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="page-footer black">
+    <div class="container">
+        <div class="row">
+            <div class="col m6 l6 s12">
+                <h5 class="amber-text">Interested? Contact Us!</h5>
+            <img src="Images/Apply Now.jpg" alt="" width="250px" height="200px">
+            </div>
+            <div class="col m6 l4 offset-l2 s12">
+                <h6 class="amber-text">Mailing Address</h6>
+            <p>#765 Brgy. Tagapo Santa Rosa Laguna</p>
+                <h6 class="amber-text">Phone Number</h5>
+                <p>+639993900849</p>
+            <h6 class="amber-text">Email Address</h6>
+            <p>ideascompany@gmail.com</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container amber-text" >
+        © Copyright 2022 All rights reserved.
+        <a class="amber-text right" href="#!">Additional Information ></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </body>
+</html>

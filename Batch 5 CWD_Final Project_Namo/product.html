@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+    <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <title>IDEaS Company</title>
+
+</head>
+<!-- Navbar Structure -->
+    <div class="navbar-fixed">
+        <nav class="transparent">
+            <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a class="brand-logo">IDEaS Company</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" a class="waves-effect waves-light btn amber">HOME</a></li>
+                <li><a href="product.html" a class="waves-effect waves-light btn amber">PRODUCTS</a></li>
+                <li><a href="services.html" a class="waves-effect waves-light btn amber">SERVICES</a></li>
+                <li><a href="offices.html" a class="waves-effect waves-light btn amber">OFFICES</a></li>
+            </ul>
+    </div>
+</div>
+<!-- SideNav Structure -->
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="Images/sidenav pic.jpg"></div>
+        <a href="#user"><img class="circle" src="Images/namo sidenav.jpg"></a>
+        <a href="#name"><span class="amber-text name">IDEaS Company</span></a>
+        <a href="#email"><span class="amber-text email">ideascompanygmail.com</span></a>
+        </div>
+    </li>
+        <li><a class="amber-text">About Us</a></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="product.html"><i class="material-icons">add_shopping_cart</i>Products</a></li>
+        <li><a href="services.html"><i class="material-icons">business_center</i>Services</a></li>
+        <li><a href="offices.html"><i class="material-icons">local_post_office</i>Offices</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="amber-text">Follow Us On</a></li>
+        <li><a class="waves-effect" href="">Facebook</a></li>
+        <li><a class="waves-effect" href="">Twitter</a></li>
+        <li><a class="waves-effect" href="">Instagram</a></li>
+    <li><a class="waves-effect" href="">Youtube</a></li>
+</ul>
+<!-- Sidenav Init -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, screenLeft);
+        });
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+        ('.dropdown-trigger').dropdown();
+</script>
+<!-- Materialbox Init -->
+<script> document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, top);});
+$(document).ready(function(){
+    $('.materialboxed').materialbox();});
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Body -->
+<body>
+    <body style="background-image:url(Images/castle.jpg); background-attachment: fixed; background-size: cover;"></body>
+        <div class="container">
+<!-- header -->
+<h1 class="amber-text" style="text-align: center">IDEaS Offered Products</h1>
+<!-- blockquote -->
+<div class="container"></div>
+<blockquote class="white-text">Aside from our services our company also offered quality products which is needed or demanded nowadays. IDEaS is being established to produce a high-quality products that meets the needs of many companies. Our company believe that it could be used by businesses in the Philippines today and in the long run. It is also beneficial to businesses in the Philippines that are having difficulties finding office supplies in some ways. We will reach out to our target customers by posting advertisements online, conducting surveys, and creating posters. They can also be aware of our product because of our reputation as a company that creates quality products.</blockquote>
+</div>
+<!-- Image Card Products -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                <div class="card-image responsive-img materialboxed">
+                    <img src="Products/cabinets.jpg">
+                    <span class="card-title">Cabinets</span>
+                </div>
+                <div class="card-content">
+                    <p>Cabinet is a cupboard with shelves or drawers for storing or displaying articles. 
+                        In many offices they use this to store and organize important papers.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/correction tape.jpg">
+                    <span class="card-title">Corection Tape</span>
+                </div>
+                <div class="card-content">
+                    <p>Corection tape can be placed over a written or typed mistake, on which the correct form can be 
+                        written or typed, thereby covering the mistake underneath.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/bond paper.jpg">
+                    <span class="card-title">Bond Paper</span>
+                </div>
+                <div class="card-content">
+                    <p>Bond paper is a durable type of paper originally used for documents. 
+                        It can use to produce hardtype of contracts and legal documents in an office</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/clearbook.jpg">
+                    <span class="card-title">Clear books</span>
+                </div>
+                <div class="card-content">
+                    <p>Clear books are handy protective folders that prevent several sheets of paper
+                        from creases or stains and yet still be able to view them clearly.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/pens.jpg">
+                    <span class="card-title">Pens</span>
+                </div>
+                <div class="card-content">
+                    <p>Pens is an instrument for writing or drawing with ink, typically consisting of a metal ball, 
+                        fitted into a metal or plastic holder.
+                    </p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/telephone.jpg">
+                    <span class="card-title">Telephone</span>
+                </div>
+                <div class="card-content">
+                    <p>Telephone is a system for transmitting voices over a distance using wire or radio, 
+                        by converting acoustic vibrations to signals.
+                    </p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/printer.jpg">
+                    <span class="card-title">Printer</span>
+                </div>
+                <div class="card-content">
+                    <p>Printer is a machine that can be connected to a computer in order to make copies on paper of 
+                        documents held by the computer.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/shredders.jpg">
+                    <span class="card-title">Shredder</span>
+                </div>
+                <div class="card-content">
+                    <p>Shredder is a machine for cutting documents into small pieces so that they cannot be read, papers 
+                        you no longer need in a cross-cut shredder.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/walkie talkie.jpg">
+                    <span class="card-title">Walkie Talkie</span>
+                </div>
+                <div class="card-content">
+                    <p>Walkie-talkie is a portable radio which you can talk into and hear messages through so
+                        that you can communicate with someone.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/lamps.jpg">
+                    <span class="card-title">Lamps</span>
+                </div>
+                <div class="card-content">
+                    <p>Lamps is a portable device for giving light, with its holder and shade or cover, they are commonly 
+                        seen at tables in offices.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/office chairs.jpg">
+                    <span class="card-title">Office Chairs</span>
+                </div>
+                <div class="card-content">
+                    <p>An office chair, or desk chair, is a type of chair that is designed for use at a desk in an office to 
+                        be comfortable.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/office desk.jpg">
+                    <span class="card-title">Office Desk</span>
+                </div>
+                <div class="card-content">
+                    <p>Office desk is a furniture at which you sit and work, write, or use your computer. 
+                        Some offices have a desk for each employee.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/laptop.jpg">
+                    <span class="card-title">Laptop</span>
+                </div>
+                <div class="card-content">
+                    <p>A laptop is a personal computer that can be easily moved and used in a variety of locations c
+                        ommonly used at office.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/desktop.jpg">
+                    <span class="card-title">Desktop Computer</span>
+                </div>
+                <div class="card-content">
+                    <p>A desktop computer is a personal computer designed for regular use at a single
+                        location on or near a desk due to its requirements.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/mesh.jpg">
+                    <span class="card-title">Wifi Mesh</span>
+                </div>
+                <div class="card-content">
+                    <p>A mesh whole home WiFi system is flexible and scalable, giving you a 
+                        customizable method of expanding your WiFi without extensions.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/calculator.jpg">
+                    <span class="card-title">Calculator</span>
+                </div>
+                <div class="card-content">
+                    <p>Calculator is a device that performs arithmetic operations.
+                    Calculators can do only addition, subtraction, multiplication and division. </p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/photocopying.jpg">
+                    <span class="card-title">Photocopier</span>
+                </div>
+                <div class="card-content">
+                    <p>A photocopier is a machine that makes copies of documents and other visual images 
+                        onto paper or plastic film quickly and cheaply.
+                    </p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/projector.jpg">
+                    <span class="card-title">Projector</span>
+                </div>
+                <div class="card-content">
+                    <p>Projector is used to project rays of light, especially an apparatus with a system of 
+                        lenses for projecting slides onto a screen.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/highlighters.jpg">
+                    <span class="card-title">Highlighters</span>
+                </div>
+                <div class="card-content">
+                    <p>Highlighter is a broad felt-tipped pen used to overlay transparent color on text 
+                        or an illustration, leaving it legible and emphasized.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/office sofa.jpg">
+                    <span class="card-title">Office Sofa</span>
+                </div>
+                <div class="card-content">
+                    <p>An office sofa is a long, comfortable seat with a back and usually with arms, which 
+                        two or three people can sit on.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/paper clips.jpg">
+                    <span class="card-title">Paper Clip</span>
+                </div>
+                <div class="card-content">
+                    <p>A paper clip is a tool used to hold sheets of paper together, usually made of steel 
+                        wire bent to a looped shape.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/scissors.jpg">
+                    <span class="card-title">Scissors</span>
+                </div>
+                <div class="card-content">
+                    <p>Scissors is a cutting materials, consisting of two sharp blades that are joined in the 
+                        middle, and two handles with holes.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/whiteboard.jpg">
+                    <span class="card-title">Whiteboard</span>
+                </div>
+                <div class="card-content">
+                    <p>Whiteboard is a board with a smooth, white surface, often fixed to a wall, on which you 
+                        can write and draw using special pens.</p></div>
+                
+            </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image responsive-img materialboxed">
+                    <img src="Products/meeting tables.jpg">
+                    <span class="card-title">Meeting Tables</span>
+                </div>
+                <div class="card-content">
+                    <p>Meeting tables is a large table, often rectangular, around which a number of people may 
+                        be seated, as when holding a conference.</p></div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+<br>
+
+<footer class="page-footer black">
+    <div class="container">
+        <div class="row">
+            <div class="col m6 l6 s12">
+                <h5 class="amber-text">Interested? Contact Us!</h5>
+            <img src="Images/Apply Now.jpg" alt="" width="250px" height="200px">
+            </div>
+            <div class="col m6 l4 offset-l2 s12">
+                <h6 class="amber-text">Mailing Address</h6>
+            <p>#765 Brgy. Tagapo Santa Rosa Laguna</p>
+                <h6 class="amber-text">Phone Number</h5>
+                <p>+639993900849</p>
+            <h6 class="amber-text">Email Address</h6>
+            <p>ideascompany@gmail.com</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container amber-text" >
+        © Copyright 2022 All rights reserved.
+        <a class="amber-text right" href="#!">Additional Information ></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </body>
+</html>
